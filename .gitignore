@@ -1,0 +1,26 @@
+# 本机账号配置
+.env
+.env.*
+!.env.example
+
+# Python 环境与缓存
+.venv*/
+__pycache__/
+*.py[cod]
+
+# 授权缓存、原始消息、报告与日志
+data/
+reports/
+logs/
+*.log
+
+# WhatsApp 本地状态
+whatsapp-mcp/
+store/
+.bridge-token
+*.db
+*.db-*
+*.sqlite*
+
+# macOS
+.DS_Store
